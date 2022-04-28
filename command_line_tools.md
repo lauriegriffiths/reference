@@ -81,6 +81,8 @@ When you run this command every file ending in `.txt` will be deleted. Be carefu
 
 In the same way you can delete every file starting with the word `thumbnail`: `rm thumbnail*`. 
 
+Sometimes you don't want to use expansion.  If you write `\*` it will be treated as an asterisk with no expansion.
+
 ### mv
 `mv` is short for move.  Use it to move a file to a different location, or rename a file.
 
@@ -103,9 +105,6 @@ Open windows you can use `start` to do the same thing.
 
 Linux can use `xdg-open`. 
 
-
-
-
 ### Review Questions
 * Make a folder containing three files.
 * Add another file to this folder and make it hidden.  
@@ -114,25 +113,69 @@ Linux can use `xdg-open`.
 * Check the creation time of the hidden file you made (hint: use `ls`)
 
 ## Interactive mode
-nano
-bc
 
-## Working with data
+Some programs run in "interactive mode". This means you can type special commands (not command line commands) and get results interactively.
+
+### bc
+
+Try running the command `bc`.  Notice how your command prompt looks different.  If you try running commands like `ls` you won't get the regular result.  Interactive mode takes over the shell completely.  
+
+`bc` is a calculator.  Try inputting basic calculations such as `25+36`.
+
+`+` is addition, `-` subtraction, `*` multiplication and `/` is divison. Exponentiation is `^`.
+
+Very large calculations are possible too.  Try `25^100`.  
+
+To quit the `bc` program type `quit`. In general, if you get 'stuck' in a program, typing `quit`, `exit`, `q` or pressing ctrl-C will usually be enough to get you back to your familiar shell.
+
+### less
+`less` is a program for previewing the contents of files.  Use `less filename` to open a file using less and press spacebar to move down a whole page.  You can also use the arrow keys. 
+
+Some other programs or scripts may use `less` to show you the contents of files.  You can use `q` to close less.  
+
+### nano
+`nano` is a simple text editor.  Open a file with `nano filename`.  Move around with the arrow keys and type to insert text.
+
+The bar at the bottom shows you useful keyboard shortcuts.  `^X` means ctrl-X and will exit nano.  It will warn you if you haven't saved.  
+
+### vim
+
+`vim` is a much more powerful text editor. It has different modes for inserting text, selecting text and moving around a file.  A full explanation of `vim` is beyond the scope of this guide, but because it is often the default editor and because other tools often open it you need to know how to exit it.  Press the escape key to enter 'normal mode', then type `:q` and press enter.  
+
+### python
+
+Many programming languages come with interactive shells where you can execute commands from that programming language. One popular example is python.  
+
+Run `python` to open a python terminal.  You can write any python code here. Try `max(51,123,312)`. The terminal should show you which number is largest.   
+
+To exit the python terminal write `quit()` and press enter.
+
+### Exercises 
+* 
+
+
+## Working with data in files
+
 head
 tail
 date
-redirecting standard output
 cat
 less
 echo
+PIPING
+
+paste
+
 wc
-piping
 sort
 uniq
-expansions
-diff
+redirecting standard output
 grep
+diff
 tr
+jot
+yes
+cut
 
 ## Interacting with your computer 
 find
@@ -147,17 +190,19 @@ jobs, bg, and fg
 gzip
 gunzip
 tar
-nano
 alias
 xargs
 ln
 
 ## Powerful utilities
+
+awk
+sed
 imagemagick
 ffmpeg
 vim
 hurl
-csv kit
+csvkit
 
 
 ## Permissions and users
