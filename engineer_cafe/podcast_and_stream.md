@@ -1,4 +1,8 @@
 # Event and Stream Setups
+# イベントや配信のセットアップ
+
+![Yamaha AG06 Mixer](images/AG06.jpg)
+![Yamaha AG06 Mixer Back](images/AG06Back.jpg)
 
 ## Sound / Podcast Setup
 1. Plug USB cable from AG06 to computer or iPad (you may need additional power). Switch on. 
@@ -9,7 +13,6 @@
 6. Set the level and gain for the the second microphone. 
 7. The AG06 will output via USB to a computer or iPad, or by stereo 1/4 inch output to a recorder or streaming device. 
 
-
 ## 音声・ポッドキャスト
 1. USBケーブルでAG06とパソコン（またはタブレット）を接続する。パワーボタンをオンにする。
 2. XLR端子や1/4インチ端子にマイクを接続する。(+48Vを押してないことを確認する)
@@ -19,6 +22,7 @@
 6. 各マイクに4-5を繰り返す。
 7. AG06ミキサーはUSB、または1/4インチ端子で出力できる。
 
+![360 Camera](images/Qoocam360.jpg)
 ## 360 Camera Stream 
 1. The 360 camera can stream straight to YouTube via Wifi or ethernet. 
 2. Turn on with the power button.
@@ -26,6 +30,7 @@
 4. Press the large button to start streaming data to Youtube. 
 5. The internal audio is unusable.  You must connect an external audio source (for example, AG06 or main hall soundboard) 
 6. The stream key is linked to the Engineer Cafe YouTube account. Talk to your Community Manager if you want to use a different stream key.  
+
 ## 360度カメラ配信
 1. 360度カメラはWiFiと有線LANで直接にyoutubeに配信できる。
 2. 電源をオンにする
@@ -57,6 +62,9 @@
 4. 手持ち無線マイクは常に接続されている。使う場合LEVELを調整する。
 5. プロジェクターの音声は赤と白のケーブルで入る。外されている場合も多いので確認してください。
 
+![ATEM Mini](images/AtemMini.jpg)
+![ATEM Mini Ports](images/AtemMiniPorts.jpg)
+## ATEM Mini (Video switcher/streamer)
 ## ATEM Mini (Video switcher/streamer)
 1. The ATEM outputs "program" to USB-C and ethernet (stream to YouTube). HDMI can show the same "program" or can show a preview of other things. 
 2. PGM means HDMI is exactly the same as the stream ("program").  M/V gives you a preview of all inputs and the output.  1, 2, 3, 4 gives you a preview of the individual inputs (but doesn't change the stream). 
@@ -98,9 +106,11 @@
 6. AG06のMONITOR-OUTをAtemMiniに入れる。(PEAKに気をつけて)
 7. (Zoomは自分の音声なしで会場の音声聞こえる)
 
-## Ethernet
+## Ethernet Cables
 1. Located behind the main hall soundboard and behind the bookshelf.
 2. Connects up to "ECEvent" wifi
+
+## 有線LAN
 
 1. 二つの箇所にある。メインホールのミキサーと書籍棚の裏
 2. ECEventと同じWifi
