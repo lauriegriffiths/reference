@@ -65,7 +65,6 @@
 ![ATEM Mini](images/AtemMini.jpg)
 ![ATEM Mini Ports](images/AtemMiniPorts.jpg)
 ## ATEM Mini (Video switcher/streamer)
-## ATEM Mini (Video switcher/streamer)
 1. The ATEM outputs "program" to USB-C and ethernet (stream to YouTube). HDMI can show the same "program" or can show a preview of other things. 
 2. PGM means HDMI is exactly the same as the stream ("program").  M/V gives you a preview of all inputs and the output.  1, 2, 3, 4 gives you a preview of the individual inputs (but doesn't change the stream). 
 3. For example, plug in a camera to HDMI-1 and the presenter's computer to HDMI-2.  Set preview to 2, and plug projector into the HDMI output. The projector will always show the slides.  Then use the big number buttons to switch between camera and slides. 
@@ -96,6 +95,8 @@
 5. The AG06 line out goes into the main hall mixer so everything can be heard from the speakers (Use 1/4 inch mono cables).
 6. The AG06 monitor out goes into the Atem Mini so the stream has all the Audio.  (Don't forget to check the level on the Atem Mini preview to avoid peaking)
 7. (Zoom does not get its own audio sent back to it, and people in the main hall can hear both local and remote speakers clearly.)
+
+## Zoomのリモート登壇者の配信
 
 1. Zoom用パソコンでZoomに入る
 2. Zoom用パソコンとAG06を接続する。Zoomの設定でマイクとスピーカーをAG06にする。
