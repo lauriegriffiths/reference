@@ -271,6 +271,10 @@ fmt
 
 pr
 
+jid (json incremental digger for drilling down to specific jq commands)
+
+musikcube (media player)
+
 
 ## Language stuff?
 say
