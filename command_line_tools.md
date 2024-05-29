@@ -275,6 +275,7 @@ jid (json incremental digger for drilling down to specific jq commands)
 
 musikcube (media player)
 
+https://www.visidata.org/  
 
 ## Language stuff?
 say
